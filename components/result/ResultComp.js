@@ -12,7 +12,7 @@ const ResultComp = ({ link }) => (
 				</Link>
 			</Button>,
 			<Button >
-				<Link href={`http://localhost:3000/uslugi/${link}`}>
+				<Link href={`https://ecosanproject.vercel.app/uslugi/${link}`}>
 					Назад к услуге
 				</Link>
 			</Button>,
