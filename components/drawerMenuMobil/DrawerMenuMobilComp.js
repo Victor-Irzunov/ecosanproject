@@ -21,7 +21,7 @@ export const DrawerMenuMobilComp = ({ isOpen, setIsOpen, onClose }) => {
 
 	return (
 		<Drawer
-			title={<div className='pt-1 text-xl'></div>}
+			title={<p className='pt-1 text-xl'>Услуги</p>}
 			placement='right'
 			onClose={onClose2}
 			open={isOpen}
